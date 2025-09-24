@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.searchmovie.navigation.AppNavigation
 import com.example.searchmovie.ui.theme.SearchMovieTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
 //                        name = "Android",
 //                        modifier = Modifier.padding(innerPadding)
 //                    )
-                    HomeScreen(Modifier.padding(innerPadding))
+                    //HomeScreen(Modifier.padding(innerPadding))
+                    AppNavigation(modifier = Modifier.padding(innerPadding))
 
                 }
             }

@@ -27,7 +27,7 @@ class MovieViewModel : ViewModel() {
 
     fun getMovieDetail(id : String){
         viewModelScope.launch {
-           // _movieDetail.value = repo.getMovieDetail(id);
+            _movieDetail.value = repo.getMovieDetail(id);
         }
     }
 }

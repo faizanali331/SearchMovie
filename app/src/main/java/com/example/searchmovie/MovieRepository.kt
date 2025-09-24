@@ -16,8 +16,8 @@ class MovieRepository {
         return response.body()?.movies
 
     }
-//    suspend fun getMovieDetail(id : String): Movie?{
-////        val response = retrofitClient.getMovieDetail(id)
-////        return response.body()
-//    }
+    suspend fun getMovieDetail(id : String): Movie?{
+        val response = retrofitClient.getMovieDetail(id)
+        return response.body()
+    }
 }
