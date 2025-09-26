@@ -100,7 +100,7 @@ dependencies {
 }
 
 
-### Setup & Run
+## Setup & Run
 
 Clone the repository:
 git clone https://github.com/faizanali331/searchmovie.git
