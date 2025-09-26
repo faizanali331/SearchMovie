@@ -105,8 +105,14 @@ dependencies {
 Clone the repository:
 git clone https://github.com/faizanali331/searchmovie.git
 
-
 Open in Android Studio.
 
 Add your OMDb API key inside RetrofitClient.kt.
 Sync Gradle and run on an emulator or device.
+
+Author
+
+Mohd Faizan
+Email: faizanali331@gmail.com
+GitHub: https://github.com/faizanali331
+LinkedIn: https://linkedin.com/in/mfakk
